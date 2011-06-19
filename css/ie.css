@@ -1,0 +1,95 @@
+/* line 8, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+address, cite, code, del, dfn, em, img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 14, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+article, aside, figure, figure img, figcaption, hgroup, footer, header, nav, section,
+video, object {
+  display: block;
+}
+
+/* line 17, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+a img {
+  border: 0;
+}
+
+/* line 20, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+figure {
+  position: relative;
+}
+
+/* line 23, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+figure img {
+  width: 100%;
+}
+
+/* line 27, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+img, object, embed {
+  max-width: 100%;
+}
+
+/* line 1, ../sass/partials/_layout.sass */
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 4, ../sass/partials/_layout.sass */
+.header, .footer, .main {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 7, ../sass/partials/_layout.sass */
+.header {
+  background: black url(/images/chrome/page-header.jpg) top left no-repeat;
+  color: white;
+  height: 211px;
+  border-radius: 0 0 100px 0;
+  margin-bottom: 2em;
+}
+
+/* line 15, ../sass/partials/_layout.sass */
+.footer {
+  margin-top: 5em;
+  box-shadow: -2px 0 20px rgba(0, 0, 0, 0.4);
+  padding-top: 2em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+/* line 22, ../sass/partials/_layout.sass */
+.sidebar {
+  width: 30.6%;
+  margin-right: 3.8%;
+  float: left;
+  margin-right: 0px;
+}
+/* line 25, ../sass/partials/_layout.sass */
+.sidebar ol {
+  list-style-type: none;
+}
+/* line 27, ../sass/partials/_layout.sass */
+.sidebar .twitterbadge {
+  margin-bottom: 1em;
+}
+/* line 29, ../sass/partials/_layout.sass */
+.sidebar .google-ads {
+  text-align: center;
+  margin: 0 auto 1em auto;
+  width: 180px;
+}
+
+/* line 34, ../sass/partials/_layout.sass */
+.content {
+  width: 61.6%;
+  margin-right: 3.8%;
+  float: left;
+}

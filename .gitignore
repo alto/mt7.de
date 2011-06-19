@@ -1,3 +1,4 @@
 _site/*
 .rake_tasks~
 
+.sass-cache

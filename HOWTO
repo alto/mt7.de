@@ -1,0 +1,5 @@
+Run
+
+  $ compass watch
+  $ jekyll --server --auto
+
