@@ -7,3 +7,4 @@ exclude:
   - Gemfile.lock
   - config.rb
   - sass
+  - TODO
