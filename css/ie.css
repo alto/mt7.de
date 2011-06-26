@@ -49,7 +49,7 @@ img, object, embed {
 
 /* line 7, ../sass/partials/_layout.sass */
 .header {
-  background: black url(/images/chrome/page-header.jpg) top left no-repeat;
+  background: black url(/images/window.jpg) top left no-repeat;
   color: white;
   height: 211px;
   border-radius: 0 0 100px 0;
