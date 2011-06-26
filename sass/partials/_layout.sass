@@ -1,16 +1,35 @@
+body
+  background: url(/images/paper6_huge.jpg)
+  background-size: 100%
+
 .container
   +eleven40-container
-  
+
 .header, .footer, .main
   +eleven40-row
-  
+
 .header
   background: black url(/images/window.jpg) top left no-repeat
   color: white
   height: 211px
-  border-radius: 0 0 100px 0
+  border-radius: 0 0 10px 10px
   // box-shadow: 2px 2px 5px rgba(0,0,0,0.4)
-  margin-bottom: 2em
+  margin-bottom: 1em
+  blockquote 
+    float: right
+    position: relative
+    margin: 2em 2em 4em 4em
+    padding:  0 0 0 1em
+    font-family: $decofont
+    .apostroph 
+      display: inline
+      line-height: 1ex
+      position: absolute
+      left: -0.25em
+      top: 0.1em
+      font-family: helvetica, arial, sans-serif
+      font-size:  7em
+      color: $lightbrown
 
 .footer
   margin-top: 5em
@@ -30,9 +49,6 @@
     text-align: center
     margin: 0 auto 1em auto
     width: 180px
-    
+
 .content
   +eleven40-eightcol
-  
-
-  
