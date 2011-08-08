@@ -17,10 +17,11 @@ current: about
   and finally a client project I'm working on: <a href="http://www.9flats.com/" title="9flats">9flats</a>.
 </p>
 
+
 <h2>Latest articles</h2>
 
 <ul class="posts">
-  {% for post in site.categories.ruby limit: 5 %}
+  {% for post in site.posts limit: 5 %}
     <li>
       <h3 class="post-headline"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></h3>
     </li>
@@ -28,14 +29,4 @@ current: about
 </ul>
 <p><a href="/blog.html">more...</a></p>
 
-<h2>Latest projects</h2>
-
-<ul class="posts">
-  {% for post in site.categories.projects limit: 5 %}
-    <li>
-      <h3 class="post-headline"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></h3>
-    </li>
-  {% endfor %}
-</ul>
-<p><a href="/projects.html">more...</a></p>
 

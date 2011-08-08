@@ -129,6 +129,13 @@ body {
   padding-right: 20px;
 }
 
+/* line 57, ../sass/partials/_layout.sass */
+.post-content img {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+
 /* line 1, ../sass/partials/_typography.sass */
 body {
   font-family: "PTSans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;
