@@ -2,8 +2,8 @@ body
   font-family: $textfont
 
 a
-  background: url(/images/link_line.jpg) no-repeat bottom right
-  padding-bottom: 3px
+  background: url(/images/link_line_thin.jpg) no-repeat bottom right
+  padding-bottom: 1px
   &:link, &:visited
     color: $linkcolor
     text-decoration: none
@@ -16,13 +16,12 @@ a
 .header
   margin-bottom: 3em
   h1
-    height: 211px
     color: $displaycolor
     font-family: $displayfont
-    line-height: 211px
-    margin: 0 30px
+    line-height: 70px
+    margin: 19px 30px 0 30px
     font-weight: black
-    font-size: 3em
+    font-size: 4em
     text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.4)
     a
       z-index: 100
@@ -42,13 +41,19 @@ h2, h3, h4, h5
     font-weight: 100
     font-size: 0.6em
     display: block
-    height: 1.1em
+    height: 1.6em
   a
     &:link, &:visited
       text-decoration: none
       color: #444
     &:hover
       text-decoration: underline
+
+h2
+  clear: both
+  margin-top: 2em
+h3
+  font-family: $textfont
 
 #disqus_thread
   h2, h3, h4, h5

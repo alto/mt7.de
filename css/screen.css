@@ -133,8 +133,8 @@ body {
 
 /* line 4, ../sass/partials/_typography.sass */
 a {
-  background: url(/images/link_line.jpg) no-repeat bottom right;
-  padding-bottom: 3px;
+  background: url(/images/link_line_thin.jpg) no-repeat bottom right;
+  padding-bottom: 1px;
 }
 /* line 7, ../sass/partials/_typography.sass */
 a:link, a:visited {
@@ -157,52 +157,62 @@ a.hidden-link {
 }
 /* line 18, ../sass/partials/_typography.sass */
 .header h1 {
-  height: 211px;
   color: #483830;
   font-family: "ChunkFive", "Georgia", "Palatino", "Times New Roman", "Baskerville", "Hoefler Text", serif;
-  line-height: 211px;
-  margin: 0 30px;
+  line-height: 70px;
+  margin: 19px 30px 0 30px;
   font-weight: black;
-  font-size: 3em;
+  font-size: 4em;
   text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.4);
 }
-/* line 27, ../sass/partials/_typography.sass */
+/* line 26, ../sass/partials/_typography.sass */
 .header h1 a {
   z-index: 100;
   text-decoration: none;
   color: white;
 }
-/* line 31, ../sass/partials/_typography.sass */
+/* line 30, ../sass/partials/_typography.sass */
 .header h1 span {
   font-size: 0.5em;
   font-weight: normal;
 }
 
-/* line 36, ../sass/partials/_typography.sass */
+/* line 35, ../sass/partials/_typography.sass */
 h2, h3, h4, h5 {
   color: #483830;
   font-family: "ChunkFive", "Georgia", "Palatino", "Times New Roman", "Baskerville", "Hoefler Text", serif;
   margin-bottom: 0.5em;
 }
-/* line 40, ../sass/partials/_typography.sass */
+/* line 39, ../sass/partials/_typography.sass */
 h2 span, h3 span, h4 span, h5 span {
   font-style: italic;
   font-weight: 100;
   font-size: 0.6em;
   display: block;
-  height: 1.1em;
+  height: 1.6em;
 }
-/* line 47, ../sass/partials/_typography.sass */
+/* line 46, ../sass/partials/_typography.sass */
 h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, h5 a:link, h5 a:visited {
   text-decoration: none;
   color: #444444;
 }
-/* line 50, ../sass/partials/_typography.sass */
+/* line 49, ../sass/partials/_typography.sass */
 h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   text-decoration: underline;
 }
 
+/* line 52, ../sass/partials/_typography.sass */
+h2 {
+  clear: both;
+  margin-top: 2em;
+}
+
 /* line 55, ../sass/partials/_typography.sass */
+h3 {
+  font-family: "PTSans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;
+}
+
+/* line 60, ../sass/partials/_typography.sass */
 #disqus_thread h2 span, #disqus_thread h3 span, #disqus_thread h4 span, #disqus_thread h5 span {
   font-size: inherit;
   font-weight: inherit;
@@ -211,27 +221,27 @@ h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   font-style: inherit;
 }
 
-/* line 62, ../sass/partials/_typography.sass */
+/* line 67, ../sass/partials/_typography.sass */
 ol, ul {
   margin-bottom: 1em;
 }
 
-/* line 65, ../sass/partials/_typography.sass */
+/* line 70, ../sass/partials/_typography.sass */
 .content, .sidebar {
   line-height: 1.3em;
   font-size: 1.2em;
 }
-/* line 68, ../sass/partials/_typography.sass */
+/* line 73, ../sass/partials/_typography.sass */
 .content p, .sidebar p {
   margin-bottom: 1em;
 }
 
-/* line 71, ../sass/partials/_typography.sass */
+/* line 76, ../sass/partials/_typography.sass */
 .footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
-/* line 75, ../sass/partials/_typography.sass */
+/* line 80, ../sass/partials/_typography.sass */
 ul.posts {
   list-style-type: none;
   margin: 0;
