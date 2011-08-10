@@ -1,10 +1,10 @@
 /*
 Syntax error: Undefined variable: "$decofont".
-        on line 23 of /Users/alto/workspace/mt7.de/sass/partials/_layout.sass
+        on line 24 of /Users/alto/workspace/mt7.de/sass/partials/_layout.sass
         from line 6 of /Users/alto/workspace/mt7.de/sass/ie.sass
 
 Backtrace:
-/Users/alto/workspace/mt7.de/sass/partials/_layout.sass:23
+/Users/alto/workspace/mt7.de/sass/partials/_layout.sass:24
 /Users/alto/workspace/mt7.de/sass/ie.sass:6
 /Users/alto/.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/sass-3.1.2/lib/sass/script/variable.rb:45:in `_perform'
 /Users/alto/.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/sass-3.1.2/lib/sass/script/node.rb:40:in `perform'
@@ -93,4 +93,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$decofont\".\A         on line 23 of /Users/alto/workspace/mt7.de/sass/partials/_layout.sass\A         from line 6 of /Users/alto/workspace/mt7.de/sass/ie.sass"; }
+  content: "Syntax error: Undefined variable: \"$decofont\".\A         on line 24 of /Users/alto/workspace/mt7.de/sass/partials/_layout.sass\A         from line 6 of /Users/alto/workspace/mt7.de/sass/ie.sass"; }

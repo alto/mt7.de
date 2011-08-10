@@ -7,6 +7,7 @@ body
 
 .header, .footer, .main
   +eleven40-row
+  overflow: visible
 
 .header
   background: black url(/images/window.jpg) top left no-repeat
@@ -39,6 +40,7 @@ body
   padding-top: 2em
   text-align: center
   padding-bottom: 2em
+  clear: both
 
 .sidebar
   +eleven40-fourcol
@@ -61,3 +63,14 @@ body
     margin-right: 10px
     border: 1px solid black
 
+.imageholder
+  position: relative
+  width: 124px
+  height: 178px
+  float: left
+  margin-right: 10px
+  border: 0px solid black
+  img
+    position: absolute
+    left: -30px
+    top: -30px

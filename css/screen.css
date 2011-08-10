@@ -51,9 +51,10 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   overflow: hidden;
+  overflow: visible;
 }
 
-/* line 11, ../sass/partials/_layout.sass */
+/* line 12, ../sass/partials/_layout.sass */
 .header {
   background: black url(/images/window.jpg) top left no-repeat;
   color: white;
@@ -61,7 +62,7 @@ body {
   border-radius: 0 0 10px 10px;
   margin-bottom: 1em;
 }
-/* line 18, ../sass/partials/_layout.sass */
+/* line 19, ../sass/partials/_layout.sass */
 .header blockquote {
   float: right;
   position: relative;
@@ -69,11 +70,11 @@ body {
   padding: 0 0 0 1em;
   font-family: "Springsteel", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif;
 }
-/* line 24, ../sass/partials/_layout.sass */
+/* line 25, ../sass/partials/_layout.sass */
 .header blockquote p {
   margin-bottom: 0.5em;
 }
-/* line 26, ../sass/partials/_layout.sass */
+/* line 27, ../sass/partials/_layout.sass */
 .header blockquote .apostroph {
   display: inline;
   line-height: 1ex;
@@ -85,49 +86,66 @@ body {
   color: #b5aa9f;
 }
 
-/* line 36, ../sass/partials/_layout.sass */
+/* line 37, ../sass/partials/_layout.sass */
 .footer {
   margin-top: 5em;
   box-shadow: -2px 0 20px rgba(0, 0, 0, 0.4);
   padding-top: 2em;
   text-align: center;
   padding-bottom: 2em;
+  clear: both;
 }
 
-/* line 43, ../sass/partials/_layout.sass */
+/* line 45, ../sass/partials/_layout.sass */
 .sidebar {
   width: 30.8%;
   margin-right: 3.8%;
   float: left;
   margin-right: 0px;
 }
-/* line 46, ../sass/partials/_layout.sass */
+/* line 48, ../sass/partials/_layout.sass */
 .sidebar ol {
   list-style-type: none;
 }
-/* line 48, ../sass/partials/_layout.sass */
+/* line 50, ../sass/partials/_layout.sass */
 .sidebar .twitterbadge {
   margin-bottom: 1em;
 }
-/* line 50, ../sass/partials/_layout.sass */
+/* line 52, ../sass/partials/_layout.sass */
 .sidebar .google-ads {
   text-align: center;
   margin: 0 auto 1em auto;
   width: 180px;
 }
 
-/* line 55, ../sass/partials/_layout.sass */
+/* line 57, ../sass/partials/_layout.sass */
 .content {
   width: 65.4%;
   margin-right: 3.8%;
   float: left;
 }
 
-/* line 59, ../sass/partials/_layout.sass */
+/* line 61, ../sass/partials/_layout.sass */
 .post-content img {
   float: left;
   margin-right: 10px;
   border: 1px solid black;
+}
+
+/* line 66, ../sass/partials/_layout.sass */
+.imageholder {
+  position: relative;
+  width: 124px;
+  height: 178px;
+  float: left;
+  margin-right: 10px;
+  border: 0px solid black;
+}
+/* line 73, ../sass/partials/_layout.sass */
+.imageholder img {
+  position: absolute;
+  left: -30px;
+  top: -30px;
 }
 
 /* line 1, ../sass/partials/_typography.sass */
@@ -147,7 +165,7 @@ a:link, a:visited {
 }
 /* line 10, ../sass/partials/_typography.sass */
 a:hover {
-  color: #042051;
+  color: #57a3de;
   text-decoration: none;
 }
 /* line 13, ../sass/partials/_typography.sass */
@@ -250,4 +268,19 @@ ul.posts {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  color: black;
+  font-family: "PTSans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+/* line 88, ../sass/partials/_typography.sass */
+ul.posts li {
+  margin-bottom: 0.5em;
+}
+/* line 90, ../sass/partials/_typography.sass */
+ul.posts li span {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 0.6em;
+  display: block;
 }
