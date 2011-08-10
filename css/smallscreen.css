@@ -58,7 +58,7 @@ body {
 .header {
   background: black url(/images/window.jpg) top left no-repeat;
   color: white;
-  height: 211px;
+  height: 175px;
   border-radius: 0 0 10px 10px;
   margin-bottom: 1em;
 }
@@ -176,8 +176,9 @@ a.hidden-link {
 /* line 16, ../sass/partials/_specials.sass */
 .header {
   margin-bottom: 3em;
+  padding-top: 20px;
 }
-/* line 18, ../sass/partials/_specials.sass */
+/* line 19, ../sass/partials/_specials.sass */
 .header h1 {
   color: #042051;
   font-family: "ChunkFive", "Georgia", "Palatino", "Times New Roman", "Baskerville", "Hoefler Text", serif;
@@ -187,25 +188,25 @@ a.hidden-link {
   font-size: 4em;
   text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.4);
 }
-/* line 26, ../sass/partials/_specials.sass */
+/* line 27, ../sass/partials/_specials.sass */
 .header h1 a {
   z-index: 100;
   text-decoration: none;
   color: white;
 }
-/* line 30, ../sass/partials/_specials.sass */
+/* line 31, ../sass/partials/_specials.sass */
 .header h1 span {
   font-size: 0.5em;
   font-weight: normal;
 }
 
-/* line 35, ../sass/partials/_specials.sass */
+/* line 36, ../sass/partials/_specials.sass */
 h2, h3, h4, h5 {
   color: #042051;
   font-family: "ChunkFive", "Georgia", "Palatino", "Times New Roman", "Baskerville", "Hoefler Text", serif;
   margin-bottom: 0.5em;
 }
-/* line 39, ../sass/partials/_specials.sass */
+/* line 40, ../sass/partials/_specials.sass */
 h2 span, h3 span, h4 span, h5 span {
   font-style: italic;
   font-weight: 100;
@@ -213,28 +214,28 @@ h2 span, h3 span, h4 span, h5 span {
   display: block;
   height: 1.6em;
 }
-/* line 46, ../sass/partials/_specials.sass */
+/* line 47, ../sass/partials/_specials.sass */
 h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, h5 a:link, h5 a:visited {
   text-decoration: none;
   color: #444444;
 }
-/* line 49, ../sass/partials/_specials.sass */
+/* line 50, ../sass/partials/_specials.sass */
 h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   text-decoration: underline;
 }
 
-/* line 52, ../sass/partials/_specials.sass */
+/* line 53, ../sass/partials/_specials.sass */
 h2 {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 55, ../sass/partials/_specials.sass */
+/* line 56, ../sass/partials/_specials.sass */
 h3 {
   font-family: "PTSans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;
 }
 
-/* line 60, ../sass/partials/_specials.sass */
+/* line 61, ../sass/partials/_specials.sass */
 #disqus_thread h2 span, #disqus_thread h3 span, #disqus_thread h4 span, #disqus_thread h5 span {
   font-size: inherit;
   font-weight: inherit;
@@ -243,27 +244,27 @@ h3 {
   font-style: inherit;
 }
 
-/* line 67, ../sass/partials/_specials.sass */
+/* line 68, ../sass/partials/_specials.sass */
 ol, ul {
   margin-bottom: 1em;
 }
 
-/* line 70, ../sass/partials/_specials.sass */
+/* line 71, ../sass/partials/_specials.sass */
 .content, .sidebar {
   line-height: 1.3em;
   font-size: 1.2em;
 }
-/* line 73, ../sass/partials/_specials.sass */
+/* line 74, ../sass/partials/_specials.sass */
 .content p, .sidebar p {
   margin-bottom: 1em;
 }
 
-/* line 76, ../sass/partials/_specials.sass */
+/* line 77, ../sass/partials/_specials.sass */
 .footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
-/* line 80, ../sass/partials/_specials.sass */
+/* line 81, ../sass/partials/_specials.sass */
 ul.posts {
   list-style-type: none;
   margin: 0;
@@ -273,11 +274,11 @@ ul.posts {
   font-size: 1.1em;
   margin-bottom: 0.5em;
 }
-/* line 88, ../sass/partials/_specials.sass */
+/* line 89, ../sass/partials/_specials.sass */
 ul.posts li {
   margin-bottom: 0.5em;
 }
-/* line 90, ../sass/partials/_specials.sass */
+/* line 91, ../sass/partials/_specials.sass */
 ul.posts li span {
   font-style: italic;
   font-weight: 100;
