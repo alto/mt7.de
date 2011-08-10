@@ -1,17 +1,75 @@
-body
-  font-family: $textfont
+.container
+  +eleven40-container
 
-a
-  background: url(/images/link_line_thin.jpg) no-repeat bottom right
-  padding-bottom: 1px
-  &:link, &:visited
-    color: $linkcolor
-    text-decoration: none
-  &:hover
-    color: $lightblue
-    text-decoration: none
-  &.hidden-link
-    background: none
+.header, .footer, .main
+  +eleven40-row
+  overflow: visible
+
+.header
+  background: black url(/images/window.jpg) top left no-repeat
+  color: white
+  height: 175px
+  border-radius: 0 0 10px 10px
+  // box-shadow: 2px 2px 5px rgba(0,0,0,0.4)
+  margin-bottom: 1em
+  blockquote 
+    float: right
+    position: relative
+    margin: 2em 2em 4em 4em
+    padding:  0 0 0 1em
+    font-family: $decofont
+    p
+      margin-bottom: 0.5em
+    .apostroph 
+      display: inline
+      line-height: 1ex
+      position: absolute
+      left: -0.25em
+      top: 0.1em
+      font-family: helvetica, arial, sans-serif
+      font-size:  7em
+      color: $lightbrown
+
+.footer
+  margin-top: 5em
+  box-shadow: -2px 0 20px rgba(0,0,0,0.4)
+  padding-top: 2em
+  text-align: center
+  padding-bottom: 2em
+  clear: both
+
+.sidebar
+  +eleven40-fourcol
+  +eleven40-last
+  ol
+    list-style-type: none
+  .twitterbadge
+    margin-bottom: 1em
+  .google-ads
+    text-align: center
+    margin: 0 auto 1em auto
+    width: 180px
+
+.content
+  +eleven40-eightcol
+
+.post-content
+  img
+    float: left
+    margin-right: 10px
+    border: 1px solid black
+
+.imageholder
+  position: relative
+  width: 124px
+  height: 178px
+  float: left
+  margin-right: 10px
+  border: 0px solid black
+  img
+    position: absolute
+    left: -30px
+    top: -30px
 
 .header
   margin-bottom: 3em
@@ -33,29 +91,6 @@ a
       font-weight: normal
 
 
-h2, h3, h4, h5
-  color: $displaycolor
-  font-family: $displayfont
-  margin-bottom: 0.5em
-  span
-    font-style: italic
-    font-weight: 100
-    font-size: 0.6em
-    display: block
-    height: 1.6em
-  a
-    &:link, &:visited
-      text-decoration: none
-      color: #444
-    &:hover
-      text-decoration: underline
-
-h2
-  clear: both
-  margin-top: 2em
-h3
-  font-family: $textfont
-
 #disqus_thread
   h2, h3, h4, h5
     span
@@ -65,9 +100,6 @@ h3
       height: inherit
       font-style: inherit
       
-ol, ul
-  margin-bottom: 1em
-
 .content, .sidebar
   line-height: 1.3em
   font-size: 1.2em
