@@ -33,13 +33,13 @@ img, object, embed {
   max-width: 100%;
 }
 
-/* line 1, ../sass/partials/_layout.sass */
+/* line 1, ../sass/partials/_generics.sass */
 body {
   background: url(/images/paper6_huge.jpg);
   background-size: 100%;
 }
 
-/* line 5, ../sass/partials/_layout.sass */
+/* line 5, ../sass/partials/_generics.sass */
 .container {
   width: 100%;
   margin-left: 0px;
@@ -48,7 +48,7 @@ body {
   padding-right: 0px;
 }
 
-/* line 8, ../sass/partials/_layout.sass */
+/* line 8, ../sass/partials/_generics.sass */
 .header, .footer, .main {
   width: 100%;
   margin-left: 0px;
@@ -58,7 +58,7 @@ body {
   overflow: visible;
 }
 
-/* line 12, ../sass/partials/_layout.sass */
+/* line 12, ../sass/partials/_generics.sass */
 .header {
   background: black url(/images/window.jpg) top left no-repeat;
   color: white;
@@ -66,7 +66,7 @@ body {
   border-radius: 0 0 10px 10px;
   margin-bottom: 1em;
 }
-/* line 19, ../sass/partials/_layout.sass */
+/* line 19, ../sass/partials/_generics.sass */
 .header blockquote {
   float: right;
   position: relative;
@@ -74,11 +74,11 @@ body {
   padding: 0 0 0 1em;
   font-family: "Springsteel", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif;
 }
-/* line 25, ../sass/partials/_layout.sass */
+/* line 25, ../sass/partials/_generics.sass */
 .header blockquote p {
   margin-bottom: 0.5em;
 }
-/* line 27, ../sass/partials/_layout.sass */
+/* line 27, ../sass/partials/_generics.sass */
 .header blockquote .apostroph {
   display: inline;
   line-height: 1ex;
@@ -90,7 +90,7 @@ body {
   color: #b5aa9f;
 }
 
-/* line 37, ../sass/partials/_layout.sass */
+/* line 37, ../sass/partials/_generics.sass */
 .footer {
   margin-top: 5em;
   box-shadow: -2px 0 20px rgba(0, 0, 0, 0.4);
@@ -100,7 +100,7 @@ body {
   clear: both;
 }
 
-/* line 45, ../sass/partials/_layout.sass */
+/* line 45, ../sass/partials/_generics.sass */
 .sidebar {
   width: auto;
   float: none;
@@ -110,22 +110,22 @@ body {
   padding-right: 20px;
   margin-right: 0px;
 }
-/* line 48, ../sass/partials/_layout.sass */
+/* line 48, ../sass/partials/_generics.sass */
 .sidebar ol {
   list-style-type: none;
 }
-/* line 50, ../sass/partials/_layout.sass */
+/* line 50, ../sass/partials/_generics.sass */
 .sidebar .twitterbadge {
   margin-bottom: 1em;
 }
-/* line 52, ../sass/partials/_layout.sass */
+/* line 52, ../sass/partials/_generics.sass */
 .sidebar .google-ads {
   text-align: center;
   margin: 0 auto 1em auto;
   width: 180px;
 }
 
-/* line 57, ../sass/partials/_layout.sass */
+/* line 57, ../sass/partials/_generics.sass */
 .content {
   width: auto;
   float: none;
@@ -135,14 +135,14 @@ body {
   padding-right: 20px;
 }
 
-/* line 61, ../sass/partials/_layout.sass */
+/* line 61, ../sass/partials/_generics.sass */
 .post-content img {
   float: left;
   margin-right: 10px;
   border: 1px solid black;
 }
 
-/* line 66, ../sass/partials/_layout.sass */
+/* line 66, ../sass/partials/_generics.sass */
 .imageholder {
   position: relative;
   width: 124px;
@@ -151,43 +151,43 @@ body {
   margin-right: 10px;
   border: 0px solid black;
 }
-/* line 73, ../sass/partials/_layout.sass */
+/* line 73, ../sass/partials/_generics.sass */
 .imageholder img {
   position: absolute;
   left: -30px;
   top: -30px;
 }
 
-/* line 1, ../sass/partials/_typography.sass */
+/* line 1, ../sass/partials/_specials.sass */
 body {
   font-family: "PTSans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;
 }
 
-/* line 4, ../sass/partials/_typography.sass */
+/* line 4, ../sass/partials/_specials.sass */
 a {
   background: url(/images/link_line_thin.jpg) no-repeat bottom right;
   padding-bottom: 1px;
 }
-/* line 7, ../sass/partials/_typography.sass */
+/* line 7, ../sass/partials/_specials.sass */
 a:link, a:visited {
   color: #24457c;
   text-decoration: none;
 }
-/* line 10, ../sass/partials/_typography.sass */
+/* line 10, ../sass/partials/_specials.sass */
 a:hover {
   color: #57a3de;
   text-decoration: none;
 }
-/* line 13, ../sass/partials/_typography.sass */
+/* line 13, ../sass/partials/_specials.sass */
 a.hidden-link {
   background: none;
 }
 
-/* line 16, ../sass/partials/_typography.sass */
+/* line 16, ../sass/partials/_specials.sass */
 .header {
   margin-bottom: 3em;
 }
-/* line 18, ../sass/partials/_typography.sass */
+/* line 18, ../sass/partials/_specials.sass */
 .header h1 {
   color: #042051;
   font-family: "ChunkFive", "Georgia", "Palatino", "Times New Roman", "Baskerville", "Hoefler Text", serif;
@@ -197,25 +197,25 @@ a.hidden-link {
   font-size: 4em;
   text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.4);
 }
-/* line 26, ../sass/partials/_typography.sass */
+/* line 26, ../sass/partials/_specials.sass */
 .header h1 a {
   z-index: 100;
   text-decoration: none;
   color: white;
 }
-/* line 30, ../sass/partials/_typography.sass */
+/* line 30, ../sass/partials/_specials.sass */
 .header h1 span {
   font-size: 0.5em;
   font-weight: normal;
 }
 
-/* line 35, ../sass/partials/_typography.sass */
+/* line 35, ../sass/partials/_specials.sass */
 h2, h3, h4, h5 {
   color: #042051;
   font-family: "ChunkFive", "Georgia", "Palatino", "Times New Roman", "Baskerville", "Hoefler Text", serif;
   margin-bottom: 0.5em;
 }
-/* line 39, ../sass/partials/_typography.sass */
+/* line 39, ../sass/partials/_specials.sass */
 h2 span, h3 span, h4 span, h5 span {
   font-style: italic;
   font-weight: 100;
@@ -223,28 +223,28 @@ h2 span, h3 span, h4 span, h5 span {
   display: block;
   height: 1.6em;
 }
-/* line 46, ../sass/partials/_typography.sass */
+/* line 46, ../sass/partials/_specials.sass */
 h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, h5 a:link, h5 a:visited {
   text-decoration: none;
   color: #444444;
 }
-/* line 49, ../sass/partials/_typography.sass */
+/* line 49, ../sass/partials/_specials.sass */
 h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   text-decoration: underline;
 }
 
-/* line 52, ../sass/partials/_typography.sass */
+/* line 52, ../sass/partials/_specials.sass */
 h2 {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 55, ../sass/partials/_typography.sass */
+/* line 55, ../sass/partials/_specials.sass */
 h3 {
   font-family: "PTSans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;
 }
 
-/* line 60, ../sass/partials/_typography.sass */
+/* line 60, ../sass/partials/_specials.sass */
 #disqus_thread h2 span, #disqus_thread h3 span, #disqus_thread h4 span, #disqus_thread h5 span {
   font-size: inherit;
   font-weight: inherit;
@@ -253,27 +253,27 @@ h3 {
   font-style: inherit;
 }
 
-/* line 67, ../sass/partials/_typography.sass */
+/* line 67, ../sass/partials/_specials.sass */
 ol, ul {
   margin-bottom: 1em;
 }
 
-/* line 70, ../sass/partials/_typography.sass */
+/* line 70, ../sass/partials/_specials.sass */
 .content, .sidebar {
   line-height: 1.3em;
   font-size: 1.2em;
 }
-/* line 73, ../sass/partials/_typography.sass */
+/* line 73, ../sass/partials/_specials.sass */
 .content p, .sidebar p {
   margin-bottom: 1em;
 }
 
-/* line 76, ../sass/partials/_typography.sass */
+/* line 76, ../sass/partials/_specials.sass */
 .footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
-/* line 80, ../sass/partials/_typography.sass */
+/* line 80, ../sass/partials/_specials.sass */
 ul.posts {
   list-style-type: none;
   margin: 0;
@@ -283,11 +283,11 @@ ul.posts {
   font-size: 1.1em;
   margin-bottom: 0.5em;
 }
-/* line 88, ../sass/partials/_typography.sass */
+/* line 88, ../sass/partials/_specials.sass */
 ul.posts li {
   margin-bottom: 0.5em;
 }
-/* line 90, ../sass/partials/_typography.sass */
+/* line 90, ../sass/partials/_specials.sass */
 ul.posts li span {
   font-style: italic;
   font-weight: 100;
