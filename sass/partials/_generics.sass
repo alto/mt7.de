@@ -20,11 +20,13 @@ h1, h2, h3, h4, h5
   font-family: $displayfont
   margin-bottom: 0.5em
   span
+    font-family: $textfont
     font-style: italic
     font-weight: 100
-    font-size: 0.6em
+    font-size: 0.5em
     display: block
     height: 1.6em
+    color: $blue
   a
     &:link, &:visited
       text-decoration: none
@@ -43,6 +45,30 @@ h2
 
 ol, ul
   margin-bottom: 1em
+
+article
+  img
+    float: left
+    margin: 0 10px 10px 0
+
+blockquote 
+  position: relative
+  margin: 0 2em 2em 1.5em
+  padding:  0 0 0 1em
+  font-family: $decofont
+  p
+    margin-bottom: 0.5em
+  cite
+    font-weight: bold
+  .apostroph 
+    display: inline
+    line-height: 1ex
+    position: absolute
+    left: -0.25em
+    top: 0.1em
+    font-family: helvetica, arial, sans-serif
+    font-size:  7em
+    color: $lightbrown
 
 .right
   float: right
