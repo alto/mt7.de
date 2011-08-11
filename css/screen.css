@@ -100,6 +100,11 @@ ol, ul {
   margin-bottom: 1em;
 }
 
+/* line 44, ../sass/partials/_generics.sass */
+.right {
+  float: right;
+}
+
 /* line 1, ../sass/partials/_specials.sass */
 .container {
   padding-left: 20px;
@@ -118,12 +123,34 @@ ol, ul {
 /* line 8, ../sass/partials/_specials.sass */
 .header {
   background: black url(/images/window.jpg) top left no-repeat;
+  border-radius: 0 0 10px 10px;
   color: white;
   height: 175px;
-  border-radius: 0 0 10px 10px;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
+  padding-top: 20px;
 }
 /* line 15, ../sass/partials/_specials.sass */
+.header h1 {
+  color: #042051;
+  font-family: "ChunkFive", "Georgia", "Palatino", "Times New Roman", "Baskerville", "Hoefler Text", serif;
+  line-height: 70px;
+  margin: 19px 30px 0 30px;
+  font-weight: black;
+  font-size: 4em;
+  text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.4);
+}
+/* line 23, ../sass/partials/_specials.sass */
+.header h1 a {
+  z-index: 100;
+  text-decoration: none;
+  color: white;
+}
+/* line 27, ../sass/partials/_specials.sass */
+.header h1 span {
+  font-size: 0.5em;
+  font-weight: normal;
+}
+/* line 30, ../sass/partials/_specials.sass */
 .header blockquote {
   float: right;
   position: relative;
@@ -131,11 +158,11 @@ ol, ul {
   padding: 0 0 0 1em;
   font-family: "Springsteel", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif;
 }
-/* line 21, ../sass/partials/_specials.sass */
+/* line 36, ../sass/partials/_specials.sass */
 .header blockquote p {
   margin-bottom: 0.5em;
 }
-/* line 23, ../sass/partials/_specials.sass */
+/* line 38, ../sass/partials/_specials.sass */
 .header blockquote .apostroph {
   display: inline;
   line-height: 1ex;
@@ -147,96 +174,80 @@ ol, ul {
   color: #b5aa9f;
 }
 
-/* line 33, ../sass/partials/_specials.sass */
-.footer {
-  margin-top: 5em;
-  box-shadow: -2px 0 20px rgba(0, 0, 0, 0.4);
-  padding-top: 2em;
-  text-align: center;
+/* line 48, ../sass/partials/_specials.sass */
+.main {
   padding-bottom: 2em;
-  clear: both;
 }
-
-/* line 41, ../sass/partials/_specials.sass */
-.sidebar {
+/* line 50, ../sass/partials/_specials.sass */
+.main .content, .main .sidebar {
+  line-height: 1.3em;
+  font-size: 1.2em;
+}
+/* line 53, ../sass/partials/_specials.sass */
+.main .content p, .main .sidebar p {
+  margin-bottom: 1em;
+}
+/* line 55, ../sass/partials/_specials.sass */
+.main .content {
+  width: 65.4%;
+  margin-right: 3.8%;
+  float: left;
+  margin-bottom: 2em;
+}
+/* line 58, ../sass/partials/_specials.sass */
+.main .sidebar {
   width: 30.8%;
   margin-right: 3.8%;
   float: left;
   margin-right: 0px;
 }
-/* line 44, ../sass/partials/_specials.sass */
-.sidebar ol {
+/* line 61, ../sass/partials/_specials.sass */
+.main .sidebar ol {
   list-style-type: none;
 }
-/* line 46, ../sass/partials/_specials.sass */
-.sidebar .twitterbadge {
+/* line 63, ../sass/partials/_specials.sass */
+.main .sidebar .twitterbadge {
   margin-bottom: 1em;
 }
-/* line 48, ../sass/partials/_specials.sass */
-.sidebar .google-ads {
+/* line 65, ../sass/partials/_specials.sass */
+.main .sidebar .google-ads {
   text-align: center;
   margin: 0 auto 1em auto;
   width: 180px;
 }
 
-/* line 53, ../sass/partials/_specials.sass */
-.content {
-  width: 65.4%;
-  margin-right: 3.8%;
-  float: left;
+/* line 70, ../sass/partials/_specials.sass */
+.footer {
+  clear: both;
+  box-shadow: -2px 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 10px 10px 0 0;
+  -moz-box-shadow: inset 0 0 10px black;
+  -webkit-box-shadow: inset 0 0 10px black;
+  box-shadow: inset 0 0 10px black;
+  text-align: center;
+  margin-top: 5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
-/* line 57, ../sass/partials/_specials.sass */
-.post-content img {
-  float: left;
-  margin-right: 10px;
-  border: 1px solid black;
-}
-
-/* line 62, ../sass/partials/_specials.sass */
+/* line 84, ../sass/partials/_specials.sass */
 .imageholder {
   position: relative;
-  width: 124px;
-  height: 178px;
   float: left;
   margin-right: 10px;
   border: 0px solid black;
+  width: 124px;
+  height: 178px;
 }
-/* line 69, ../sass/partials/_specials.sass */
+/* line 91, ../sass/partials/_specials.sass */
 .imageholder img {
   position: absolute;
   left: -30px;
   top: -30px;
 }
 
-/* line 74, ../sass/partials/_specials.sass */
-.header {
-  margin-bottom: 3em;
-  padding-top: 20px;
-}
-/* line 77, ../sass/partials/_specials.sass */
-.header h1 {
-  color: #042051;
-  font-family: "ChunkFive", "Georgia", "Palatino", "Times New Roman", "Baskerville", "Hoefler Text", serif;
-  line-height: 70px;
-  margin: 19px 30px 0 30px;
-  font-weight: black;
-  font-size: 4em;
-  text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.4);
-}
-/* line 85, ../sass/partials/_specials.sass */
-.header h1 a {
-  z-index: 100;
-  text-decoration: none;
-  color: white;
-}
-/* line 89, ../sass/partials/_specials.sass */
-.header h1 span {
-  font-size: 0.5em;
-  font-weight: normal;
-}
-
-/* line 96, ../sass/partials/_specials.sass */
+/* line 100, ../sass/partials/_specials.sass */
 #disqus_thread h2 span, #disqus_thread h3 span, #disqus_thread h4 span, #disqus_thread h5 span {
   font-size: inherit;
   font-weight: inherit;
@@ -245,22 +256,7 @@ ol, ul {
   font-style: inherit;
 }
 
-/* line 103, ../sass/partials/_specials.sass */
-.content, .sidebar {
-  line-height: 1.3em;
-  font-size: 1.2em;
-}
-/* line 106, ../sass/partials/_specials.sass */
-.content p, .sidebar p {
-  margin-bottom: 1em;
-}
-
-/* line 109, ../sass/partials/_specials.sass */
-.footer {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-}
-
-/* line 113, ../sass/partials/_specials.sass */
+/* line 107, ../sass/partials/_specials.sass */
 ul.posts {
   list-style-type: none;
   margin: 0;
@@ -270,14 +266,31 @@ ul.posts {
   font-size: 1.1em;
   margin-bottom: 0.5em;
 }
-/* line 121, ../sass/partials/_specials.sass */
+/* line 115, ../sass/partials/_specials.sass */
 ul.posts li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.6em;
 }
-/* line 123, ../sass/partials/_specials.sass */
+/* line 117, ../sass/partials/_specials.sass */
 ul.posts li span {
   font-style: italic;
   font-weight: 100;
   font-size: 0.6em;
   display: block;
+  margin-bottom: -5px;
+}
+
+/* line 125, ../sass/partials/_specials.sass */
+.date {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 0.5em;
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+/* line 133, ../sass/partials/_specials.sass */
+.post-body img {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid black;
 }

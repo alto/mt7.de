@@ -7,11 +7,26 @@
 
 .header
   background: black url(/images/window.jpg) top left no-repeat
+  border-radius: 0 0 10px 10px
   color: white
   height: 175px
-  border-radius: 0 0 10px 10px
-  // box-shadow: 2px 2px 5px rgba(0,0,0,0.4)
-  margin-bottom: 1em
+  margin-bottom: 3em
+  padding-top: 20px
+  h1
+    color: $displaycolor
+    font-family: $displayfont
+    line-height: 70px
+    margin: 19px 30px 0 30px
+    font-weight: black
+    font-size: 4em
+    text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.4)
+    a
+      z-index: 100
+      text-decoration: none
+      color: white
+    span
+      font-size: 0.5em
+      font-weight: normal
   blockquote 
     float: right
     position: relative
@@ -30,65 +45,54 @@
       font-size:  7em
       color: $lightbrown
 
-.footer
-  margin-top: 5em
-  box-shadow: -2px 0 20px rgba(0,0,0,0.4)
-  padding-top: 2em
-  text-align: center
+.main
   padding-bottom: 2em
+  .content, .sidebar
+    line-height: 1.3em
+    font-size: 1.2em
+    p
+      margin-bottom: 1em
+  .content
+    +eleven40-eightcol
+    margin-bottom: 2em
+  .sidebar
+    +eleven40-fourcol
+    +eleven40-last
+    ol
+      list-style-type: none
+    .twitterbadge
+      margin-bottom: 1em
+    .google-ads
+      text-align: center
+      margin: 0 auto 1em auto
+      width: 180px
+
+.footer
   clear: both
+  box-shadow: -2px 0 20px rgba(0,0,0,0.4)
+  border-radius: 10px 10px 0 0
+  -moz-box-shadow: inset 0 0 10px #000000
+  -webkit-box-shadow: inset 0 0 10px #000000
+  box-shadow: inset 0 0 10px #000000
+  text-align: center
+  margin-top: 5em
+  padding-top: 2em
+  padding-bottom: 2em
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif
 
-.sidebar
-  +eleven40-fourcol
-  +eleven40-last
-  ol
-    list-style-type: none
-  .twitterbadge
-    margin-bottom: 1em
-  .google-ads
-    text-align: center
-    margin: 0 auto 1em auto
-    width: 180px
-
-.content
-  +eleven40-eightcol
-
-.post-content
-  img
-    float: left
-    margin-right: 10px
-    border: 1px solid black
 
 .imageholder
   position: relative
-  width: 124px
-  height: 178px
   float: left
   margin-right: 10px
   border: 0px solid black
+  width: 124px
+  height: 178px
   img
     position: absolute
     left: -30px
     top: -30px
 
-.header
-  margin-bottom: 3em
-  padding-top: 20px
-  h1
-    color: $displaycolor
-    font-family: $displayfont
-    line-height: 70px
-    margin: 19px 30px 0 30px
-    font-weight: black
-    font-size: 4em
-    text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.4)
-    a
-      z-index: 100
-      text-decoration: none
-      color: white
-    span
-      font-size: 0.5em
-      font-weight: normal
 
 
 #disqus_thread
@@ -100,16 +104,6 @@
       height: inherit
       font-style: inherit
       
-.content, .sidebar
-  line-height: 1.3em
-  font-size: 1.2em
-  p
-    margin-bottom: 1em
-
-.footer
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif
-  
-  
 ul.posts
   list-style-type: none
   margin: 0
@@ -119,10 +113,24 @@ ul.posts
   font-size: 1.1em
   margin-bottom: 0.5em
   li
-    margin-bottom: 0.5em
+    margin-bottom: 0.6em
     span
       font-style: italic
       font-weight: 100
       font-size: 0.6em
       display: block
+      margin-bottom: -5px
   //    height: 1.6em
+
+.date
+  font-style: italic
+  font-weight: 100
+  font-size: 0.5em
+  display: block
+  margin-bottom: 0.3em
+
+.post-body
+  img
+    float: left
+    margin-right: 10px
+    border: 1px solid black
