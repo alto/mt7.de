@@ -3,10 +3,9 @@ layout: default
 title: thorsten böttger - ruby developer
 current: about
 ---
-<div class="imageholder">
-  &nbsp;
-  <img src="/images/my_head_skitched_247x356.jpg" alt="an image of thorsten"/>
-</div>
+<img src="/images/my_head_skitched_247x356.jpg" alt="an image of thorsten" class="head"/>
+
+<h1>About me</h1>
 <p>
   <a href="http://github.com/alto/">Ruby developer</a>,
   guitar music lover, amateur photographer, absolutely galao addicted,
@@ -20,9 +19,7 @@ current: about
   and finally a client project I'm working on: <a href="http://www.9flats.com/" title="9flats">9flats</a>.
 </p>
 
-
-<h2>Latest Blog Entries</h2>
-
+<h1 class="multiple">Latest Blog Entries</h1>
 <ul class="posts">
   {% for post in site.posts limit: 5 %}
     <li>
