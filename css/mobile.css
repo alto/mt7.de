@@ -1,4 +1,4 @@
-/* line 8, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 8, /Users/alto/.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/lib/../stylesheets/eleven40/reset/_utilities.scss */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
 address, cite, code, del, dfn, em, img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -7,66 +7,66 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   padding: 0;
 }
 
-/* line 14, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 14, /Users/alto/.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/lib/../stylesheets/eleven40/reset/_utilities.scss */
 article, aside, figure, figure img, figcaption, hgroup, footer, header, nav, section,
 video, object {
   display: block;
 }
 
-/* line 17, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 17, /Users/alto/.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/lib/../stylesheets/eleven40/reset/_utilities.scss */
 a img {
   border: 0;
 }
 
-/* line 20, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 20, /Users/alto/.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/lib/../stylesheets/eleven40/reset/_utilities.scss */
 figure {
   position: relative;
 }
 
-/* line 23, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 23, /Users/alto/.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/lib/../stylesheets/eleven40/reset/_utilities.scss */
 figure img {
   width: 100%;
 }
 
-/* line 27, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 27, /Users/alto/.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/lib/../stylesheets/eleven40/reset/_utilities.scss */
 img, object, embed {
   max-width: 100%;
 }
 
-/* line 1, ../sass/partials/_generics.sass */
+/* line 1, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 body {
   background: url(/images/paper6_huge.jpg);
   background-size: 100%;
   font-family: "PTSans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;
 }
 
-/* line 6, ../sass/partials/_generics.sass */
+/* line 6, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 a {
   background: url(/images/link_line_thin.jpg) no-repeat bottom right;
   padding-bottom: 1px;
 }
-/* line 9, ../sass/partials/_generics.sass */
+/* line 9, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 a:link, a:visited {
   color: #24457c;
   text-decoration: none;
 }
-/* line 12, ../sass/partials/_generics.sass */
+/* line 12, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 a:hover {
   color: #57a3de;
   text-decoration: none;
 }
-/* line 15, ../sass/partials/_generics.sass */
+/* line 15, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 a.hidden-link {
   background: none;
 }
 
-/* line 18, ../sass/partials/_generics.sass */
+/* line 18, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 h1, h2, h3, h4, h5 {
   color: #042051;
   font-family: "Cabin Sketch", cursive;
   margin-bottom: 0.5em;
 }
-/* line 22, ../sass/partials/_generics.sass */
+/* line 22, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 h1 span, h2 span, h3 span, h4 span, h5 span {
   font-family: "PTSans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;
   font-style: italic;
@@ -76,59 +76,59 @@ h1 span, h2 span, h3 span, h4 span, h5 span {
   height: 1.6em;
   color: #24457c;
 }
-/* line 31, ../sass/partials/_generics.sass */
+/* line 31, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 h1 a:link, h1 a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, h5 a:link, h5 a:visited {
   text-decoration: none;
   color: #444444;
 }
-/* line 34, ../sass/partials/_generics.sass */
+/* line 34, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   text-decoration: underline;
 }
 
-/* line 37, ../sass/partials/_generics.sass */
+/* line 37, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 h1 {
   font-size: 2.5em;
 }
-/* line 39, ../sass/partials/_generics.sass */
+/* line 39, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 h1.multiple {
   margin-top: 2em;
 }
 
-/* line 41, ../sass/partials/_generics.sass */
+/* line 41, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 h2 {
   clear: both;
   margin-top: 2em;
   font-size: 1.3em;
 }
 
-/* line 46, ../sass/partials/_generics.sass */
+/* line 46, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 ol, ul {
   margin-bottom: 1em;
 }
 
-/* line 50, ../sass/partials/_generics.sass */
+/* line 50, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 article img {
   float: left;
   margin: 0 10px 10px 0;
 }
 
-/* line 54, ../sass/partials/_generics.sass */
+/* line 54, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 blockquote {
   position: relative;
   margin: 0 2em 2em 1.5em;
   padding: 0 0 0 1em;
   font-family: "Springsteel", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif;
 }
-/* line 59, ../sass/partials/_generics.sass */
+/* line 59, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 blockquote p {
   margin-bottom: 0.5em;
 }
-/* line 61, ../sass/partials/_generics.sass */
+/* line 61, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 blockquote cite {
   font-weight: bold;
 }
-/* line 63, ../sass/partials/_generics.sass */
+/* line 63, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 blockquote .apostroph {
   display: inline;
   line-height: 1ex;
@@ -140,12 +140,12 @@ blockquote .apostroph {
   color: #b5aa9f;
 }
 
-/* line 73, ../sass/partials/_generics.sass */
+/* line 73, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 .right {
   float: right;
 }
 
-/* line 1, ../sass/partials/_specials.sass */
+/* line 1, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .container {
   width: 100%;
   margin-left: 0px;
@@ -154,7 +154,7 @@ blockquote .apostroph {
   padding-right: 0px;
 }
 
-/* line 4, ../sass/partials/_specials.sass */
+/* line 4, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .header, .footer, .main {
   width: 100%;
   margin-left: 0px;
@@ -164,7 +164,7 @@ blockquote .apostroph {
   overflow: visible;
 }
 
-/* line 8, ../sass/partials/_specials.sass */
+/* line 8, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .header {
   background: black url(/images/window2.jpg) top left no-repeat;
   border-radius: 0 0 5px 5px;
@@ -173,7 +173,7 @@ blockquote .apostroph {
   margin-bottom: 3em;
   padding-top: 20px;
 }
-/* line 15, ../sass/partials/_specials.sass */
+/* line 15, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .header #name {
   color: #042051;
   font-family: "Cabin Sketch", "Special Elite", cursive;
@@ -183,37 +183,37 @@ blockquote .apostroph {
   font-size: 4em;
   text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.4);
 }
-/* line 23, ../sass/partials/_specials.sass */
+/* line 23, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .header #name a {
   z-index: 100;
   text-decoration: none;
   color: white;
 }
-/* line 27, ../sass/partials/_specials.sass */
+/* line 27, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .header #name span {
   font-size: 0.5em;
   font-weight: normal;
 }
-/* line 30, ../sass/partials/_specials.sass */
+/* line 30, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .header blockquote {
   float: right;
   margin: 0 2em 4em 4em;
 }
 
-/* line 34, ../sass/partials/_specials.sass */
+/* line 34, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .main {
   padding-bottom: 2em;
 }
-/* line 36, ../sass/partials/_specials.sass */
+/* line 36, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .main .content, .main .sidebar {
-  line-height: 1.3em;
+  line-height: 1.5em;
   font-size: 1.2em;
 }
-/* line 39, ../sass/partials/_specials.sass */
+/* line 39, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .main .content p, .main .sidebar p {
   margin-bottom: 1em;
 }
-/* line 41, ../sass/partials/_specials.sass */
+/* line 41, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .main .content {
   width: auto;
   float: none;
@@ -223,7 +223,7 @@ blockquote .apostroph {
   padding-right: 20px;
   margin-bottom: 2em;
 }
-/* line 44, ../sass/partials/_specials.sass */
+/* line 44, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .main .sidebar {
   width: auto;
   float: none;
@@ -233,22 +233,22 @@ blockquote .apostroph {
   padding-right: 20px;
   margin-right: 0px;
 }
-/* line 47, ../sass/partials/_specials.sass */
+/* line 47, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .main .sidebar ol {
   list-style-type: none;
 }
-/* line 49, ../sass/partials/_specials.sass */
+/* line 49, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .main .sidebar .twitterbadge {
   margin-bottom: 1em;
 }
-/* line 51, ../sass/partials/_specials.sass */
+/* line 51, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .main .sidebar .google-ads {
   text-align: center;
   margin: 0 auto 1em auto;
   width: 180px;
 }
 
-/* line 56, ../sass/partials/_specials.sass */
+/* line 56, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .footer {
   clear: both;
   box-shadow: -2px 0 20px rgba(0, 0, 0, 0.4);
@@ -263,7 +263,7 @@ blockquote .apostroph {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
-/* line 69, ../sass/partials/_specials.sass */
+/* line 69, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 img.head {
   width: 124px;
   height: 178px;
@@ -271,7 +271,7 @@ img.head {
   margin: 4px 20px 10px -68px;
 }
 
-/* line 78, ../sass/partials/_specials.sass */
+/* line 78, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 #disqus_thread h2 span, #disqus_thread h3 span, #disqus_thread h4 span, #disqus_thread h5 span {
   font-size: inherit;
   font-weight: inherit;
@@ -280,7 +280,7 @@ img.head {
   font-style: inherit;
 }
 
-/* line 85, ../sass/partials/_specials.sass */
+/* line 85, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 ul.posts {
   list-style-type: none;
   margin: 0;
@@ -290,11 +290,11 @@ ul.posts {
   font-size: 1.1em;
   margin-bottom: 0.5em;
 }
-/* line 93, ../sass/partials/_specials.sass */
+/* line 93, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 ul.posts li {
   margin-bottom: 0.6em;
 }
-/* line 95, ../sass/partials/_specials.sass */
+/* line 95, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 ul.posts li span {
   font-style: italic;
   font-weight: 100;
@@ -303,7 +303,7 @@ ul.posts li span {
   margin-bottom: -5px;
 }
 
-/* line 103, ../sass/partials/_specials.sass */
+/* line 103, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .date {
   font-style: italic;
   font-weight: 100;
@@ -312,7 +312,7 @@ ul.posts li span {
   margin-bottom: 0.3em;
 }
 
-/* line 111, ../sass/partials/_specials.sass */
+/* line 111, /Users/alto/workspace/mt7.de/sass/partials/_specials.sass */
 .post-body img {
   float: left;
   margin-right: 10px;
