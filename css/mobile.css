@@ -71,7 +71,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span {
   font-family: "PTSans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;
   font-style: italic;
   font-weight: 100;
-  font-size: 0.5em;
+  font-size: 0.4em;
   display: block;
   height: 1.6em;
   color: #24457c;
@@ -319,11 +319,21 @@ ul.posts li span {
   border: 1px solid black;
 }
 
-/* line 12, ../sass/mobile.sass */
+/* line 11, ../sass/mobile.sass */
+.header {
+  height: 130px;
+  border-radius: 0;
+}
+/* line 14, ../sass/mobile.sass */
 .header h1 {
   font-size: 2em;
 }
-/* line 14, ../sass/mobile.sass */
+/* line 16, ../sass/mobile.sass */
 .header blockquote {
   display: none;
+}
+
+/* line 19, ../sass/mobile.sass */
+.footer {
+  border-radius: 0;
 }
