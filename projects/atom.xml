@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>mt7.de - projects feed</title>
+ <link href="http://mt7.de/projects/atom.xml" rel="self"/>
+ <link href="http://mt7.de/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://mt7.de/projects</id>
+ <author>
+   <name>Thorsten Böttger</name>
+   <email>boettger@mt7.de</email>
+ </author>
+ 
+ {% for post in site.categories.projects limit:10 %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://mt7.de{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://mt7.de{{ post.url }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>
