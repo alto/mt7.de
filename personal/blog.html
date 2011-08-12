@@ -1,0 +1,19 @@
+---
+layout: default
+title: thorsten böttger - latest personal blog entries
+current: plog
+---
+<h1>Latest Personal Blog Entries</h1>
+{% for post in site.categories.personal limit: 10 %}
+  <article>
+    <h2><span class="date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>
+      {{ post.content }}
+      {% if post.has_more? %}
+        <a href="{{ post.url }}#more" class="right">read more...</a>
+      {% endif %}
+    </p>
+  </article>
+{% endfor %}
+
+<p>Older Posts are to be found in <a href="/personal/index.html">the archives...</a>

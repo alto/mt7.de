@@ -1,0 +1,14 @@
+---
+layout: default
+title: thorsten böttger - index of Ruby blog entries
+current: blog
+---
+<h1>Index of all Ruby Blog Entries</h1>
+<ul class="posts">
+{% for post in site.categories.business %}
+  <li>
+    <span>{{ post.date | date_to_string }}</span> 
+    &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
