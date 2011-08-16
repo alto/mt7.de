@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>mt7.de</title>
+    <link>http://mt7.de</link>
+    <language>en</language>
+    <webMaster>t.boettger@mt7.de (Thorsten Böttger)</webMaster>
+    <pubDate>2011-08-15T13:42:29+02:00</pubDate>
+
+    <copyright>Copyright 1998-2011</copyright>
+    <ttl>60</ttl>
+    <description>Everything professional and personal stuff by Thorsten Böttger.</description>
+    
+    <item>
+      <title>New RSS Feed Link</title>
+      <link>http://feeds.feedburner.com/mt7/rss</link>
+
+      <pubDate>2011-08-12 00:00:00 +0200</pubDate>
+      <guid>http://feeds.feedburner.com/mt7/rss</guid>
+      <description>I moved to the RSS Feed link to <a href="http://feeds.feedburner.com/mt7/rss">a new address</a>. Please update your feed reader accordingly!</description>
+    </item>
+
+  </channel>
+</rss>
