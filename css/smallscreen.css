@@ -112,27 +112,28 @@ article img {
   float: left;
   margin: 14px 10px 10px 0;
   padding: 9px;
+  background-color: white;
   -moz-box-shadow: 1px 1px 2px #888888;
   -webkit-box-shadow: 1px 1px 2px #888888;
   box-shadow: 1px 1px 2px #888888;
 }
 
-/* line 58, ../sass/partials/_generics.sass */
+/* line 59, ../sass/partials/_generics.sass */
 blockquote {
   position: relative;
   margin: 0 2em 2em 1.5em;
   padding: 0 0 0 1em;
   font-family: "Springsteel", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif;
 }
-/* line 63, ../sass/partials/_generics.sass */
+/* line 64, ../sass/partials/_generics.sass */
 blockquote p {
   margin-bottom: 0.5em;
 }
-/* line 65, ../sass/partials/_generics.sass */
+/* line 66, ../sass/partials/_generics.sass */
 blockquote cite {
   font-weight: bold;
 }
-/* line 67, ../sass/partials/_generics.sass */
+/* line 68, ../sass/partials/_generics.sass */
 blockquote .apostroph {
   display: inline;
   line-height: 1ex;
@@ -144,7 +145,7 @@ blockquote .apostroph {
   color: #b5aa9f;
 }
 
-/* line 77, ../sass/partials/_generics.sass */
+/* line 78, ../sass/partials/_generics.sass */
 .right {
   float: right;
 }
