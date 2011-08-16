@@ -308,3 +308,9 @@ ul.posts li span {
   margin-right: 10px;
   border: 1px solid black;
 }
+
+/* line 117, ../sass/partials/_specials.sass */
+#not_found h1 {
+  margin-top: 0.4em;
+  font-size: 10em;
+}
