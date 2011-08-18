@@ -20,8 +20,20 @@ current: about
 </p>
 
 <h1 class="multiple">Latest Blog Entries</h1>
+{% for post in site.posts limit: 1 %}
+  <article>
+    <h2><span class="date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>
+      {{ post.content }}
+      {% if post.has_more? %}
+        <a href="{{ post.url }}#more" class="right">read more...</a>
+      {% endif %}
+    </p>
+  </article>
+  <img src="/images/separator.jpg" alt="separator line"/>
+{% endfor %}
 <ul class="posts">
-  {% for post in site.posts limit: 5 %}
+  {% for post in site.posts offset:1 limit:5 %}
     <li>
       <span>{{ post.date | date_to_string }}</span> 
       &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
