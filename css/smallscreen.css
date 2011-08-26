@@ -117,23 +117,27 @@ article img {
   -webkit-box-shadow: 1px 1px 2px #888888;
   box-shadow: 1px 1px 2px #888888;
 }
+/* line 58, ../sass/partials/_generics.sass */
+article img.full {
+  float: none;
+}
 
-/* line 59, ../sass/partials/_generics.sass */
+/* line 61, ../sass/partials/_generics.sass */
 blockquote {
   position: relative;
   margin: 0 2em 2em 1.5em;
   padding: 0 0 0 1em;
   font-family: "Springsteel", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif;
 }
-/* line 64, ../sass/partials/_generics.sass */
+/* line 66, ../sass/partials/_generics.sass */
 blockquote p {
   margin-bottom: 0.5em;
 }
-/* line 66, ../sass/partials/_generics.sass */
+/* line 68, ../sass/partials/_generics.sass */
 blockquote cite {
   font-weight: bold;
 }
-/* line 68, ../sass/partials/_generics.sass */
+/* line 70, ../sass/partials/_generics.sass */
 blockquote .apostroph {
   display: inline;
   line-height: 1ex;
@@ -145,7 +149,7 @@ blockquote .apostroph {
   color: #b5aa9f;
 }
 
-/* line 78, ../sass/partials/_generics.sass */
+/* line 80, ../sass/partials/_generics.sass */
 .right {
   float: right;
 }
@@ -257,8 +261,12 @@ blockquote .apostroph {
   padding-bottom: 2em;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
+/* line 68, ../sass/partials/_specials.sass */
+.footer .icon {
+  margin-top: 10px;
+}
 
-/* line 69, ../sass/partials/_specials.sass */
+/* line 71, ../sass/partials/_specials.sass */
 img.head {
   width: 124px;
   height: 178px;
@@ -266,7 +274,7 @@ img.head {
   margin: 4px 20px 10px -68px;
 }
 
-/* line 78, ../sass/partials/_specials.sass */
+/* line 80, ../sass/partials/_specials.sass */
 #disqus_thread h2 span, #disqus_thread h3 span, #disqus_thread h4 span, #disqus_thread h5 span {
   font-size: inherit;
   font-weight: inherit;
@@ -275,7 +283,7 @@ img.head {
   font-style: inherit;
 }
 
-/* line 85, ../sass/partials/_specials.sass */
+/* line 87, ../sass/partials/_specials.sass */
 ul.posts {
   list-style-type: none;
   margin: 0;
@@ -285,11 +293,11 @@ ul.posts {
   font-size: 1.1em;
   margin-bottom: 0.5em;
 }
-/* line 93, ../sass/partials/_specials.sass */
+/* line 95, ../sass/partials/_specials.sass */
 ul.posts li {
   margin-bottom: 0.6em;
 }
-/* line 95, ../sass/partials/_specials.sass */
+/* line 97, ../sass/partials/_specials.sass */
 ul.posts li span {
   font-style: italic;
   font-weight: 100;
@@ -298,7 +306,7 @@ ul.posts li span {
   margin-bottom: -5px;
 }
 
-/* line 103, ../sass/partials/_specials.sass */
+/* line 105, ../sass/partials/_specials.sass */
 .date {
   font-style: italic;
   font-weight: 100;
@@ -307,14 +315,14 @@ ul.posts li span {
   margin-bottom: 0.3em;
 }
 
-/* line 111, ../sass/partials/_specials.sass */
+/* line 113, ../sass/partials/_specials.sass */
 .post-body img {
   float: left;
   margin-right: 10px;
   border: 1px solid black;
 }
 
-/* line 117, ../sass/partials/_specials.sass */
+/* line 119, ../sass/partials/_specials.sass */
 #not_found h1 {
   margin-top: 0.4em;
   font-size: 10em;
