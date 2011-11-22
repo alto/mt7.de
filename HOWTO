@@ -3,3 +3,7 @@ Run
   $ compass watch
   $ jekyll --server --auto
 
+Deploy
+
+  $ rake site:generate
+  $ rake deploy:rsync
