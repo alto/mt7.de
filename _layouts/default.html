@@ -96,7 +96,7 @@
 
 
   <section class="footer">
-    <p>&copy; Thorsten Böttger 1998-2011</p>
+    <p>&copy; Thorsten Böttger 1998-2012</p>
     <p>made with love and <a href="http://wiki.github.com/mojombo/jekyll/" class="hidden-link">jekyll</a></p>
     <p>
       layout based on <a href="http://cssgrid.net/" class="hidden-link">1140 css grid</a> 
@@ -111,9 +111,19 @@
   </section>
 </div>
 
-<script src="//static.getclicky.com/js" type="text/javascript"></script>
-<script type="text/javascript">try{ clicky.init(66470288); }catch(e){}</script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66470288ns.gif" /></p></noscript>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-650904-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </body>
 </html>
