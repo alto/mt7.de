@@ -1,4 +1,4 @@
-/* line 8, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 8, ../../../.rvm/gems/ruby-1.9.2-p290@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
 address, cite, code, del, dfn, em, img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -7,28 +7,28 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   padding: 0;
 }
 
-/* line 14, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 14, ../../../.rvm/gems/ruby-1.9.2-p290@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
 article, aside, figure, figure img, figcaption, hgroup, footer, header, nav, section,
 video, object {
   display: block;
 }
 
-/* line 17, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 17, ../../../.rvm/gems/ruby-1.9.2-p290@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
 a img {
   border: 0;
 }
 
-/* line 20, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 20, ../../../.rvm/gems/ruby-1.9.2-p290@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
 figure {
   position: relative;
 }
 
-/* line 23, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 23, ../../../.rvm/gems/ruby-1.9.2-p290@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
 figure img {
   width: 100%;
 }
 
-/* line 27, ../../../.rvm/gems/ruby-1.9.2-p180@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
+/* line 27, ../../../.rvm/gems/ruby-1.9.2-p290@mt7.de/gems/eleven40-1.2/stylesheets/eleven40/reset/_utilities.scss */
 img, object, embed {
   max-width: 100%;
 }
@@ -274,7 +274,14 @@ img.head {
   margin: 4px 20px 10px -68px;
 }
 
-/* line 80, ../sass/partials/_specials.sass */
+/* line 77, ../sass/partials/_specials.sass */
+img.block {
+  float: none;
+  display: block;
+  margin: auto;
+}
+
+/* line 84, ../sass/partials/_specials.sass */
 #disqus_thread h2 span, #disqus_thread h3 span, #disqus_thread h4 span, #disqus_thread h5 span {
   font-size: inherit;
   font-weight: inherit;
@@ -283,7 +290,7 @@ img.head {
   font-style: inherit;
 }
 
-/* line 87, ../sass/partials/_specials.sass */
+/* line 91, ../sass/partials/_specials.sass */
 ul.posts {
   list-style-type: none;
   margin: 0;
@@ -293,11 +300,11 @@ ul.posts {
   font-size: 1.1em;
   margin-bottom: 0.5em;
 }
-/* line 95, ../sass/partials/_specials.sass */
+/* line 99, ../sass/partials/_specials.sass */
 ul.posts li {
   margin-bottom: 0.6em;
 }
-/* line 97, ../sass/partials/_specials.sass */
+/* line 101, ../sass/partials/_specials.sass */
 ul.posts li span {
   font-style: italic;
   font-weight: 100;
@@ -306,7 +313,7 @@ ul.posts li span {
   margin-bottom: -5px;
 }
 
-/* line 105, ../sass/partials/_specials.sass */
+/* line 109, ../sass/partials/_specials.sass */
 .date {
   font-style: italic;
   font-weight: 100;
@@ -315,14 +322,14 @@ ul.posts li span {
   margin-bottom: 0.3em;
 }
 
-/* line 113, ../sass/partials/_specials.sass */
+/* line 117, ../sass/partials/_specials.sass */
 .post-body img {
   float: left;
   margin-right: 10px;
   border: 1px solid black;
 }
 
-/* line 119, ../sass/partials/_specials.sass */
+/* line 123, ../sass/partials/_specials.sass */
 #not_found h1 {
   margin-top: 0.4em;
   font-size: 10em;
