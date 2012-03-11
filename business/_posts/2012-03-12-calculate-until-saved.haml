@@ -1,0 +1,18 @@
+---
+title: Calculate until saved
+layout: post
+---
+
+Let's say you have an attribute of an ActiveRecord object which is somehow calculated based on the state of the object,
+and let's assume this calculation is really expensive in terms of performance. Then
+%strong calculate_until_saved
+might be for you:
+
+%p
+  <script src="https://gist.github.com/2014230.js?file=usage.rb"></script>
+
+Here's the module which you can easily store under
+%em lib/calculate_until_saved.rb
+
+%p
+  <script src="https://gist.github.com/2014230.js?file=calculate_until_saved.rb"></script>
