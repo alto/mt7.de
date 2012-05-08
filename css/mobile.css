@@ -346,6 +346,12 @@ ul.posts li span {
   font-size: 10em;
 }
 
+/* line 127, ../sass/partials/_specials.sass */
+p.caption {
+  text-align: center;
+  font-size: 0.8em;
+}
+
 /* line 11, ../sass/mobile.sass */
 .header {
   height: 130px;

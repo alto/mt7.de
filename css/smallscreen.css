@@ -335,3 +335,9 @@ ul.posts li span {
   margin-top: 0.4em;
   font-size: 10em;
 }
+
+/* line 127, ../sass/partials/_specials.sass */
+p.caption {
+  text-align: center;
+  font-size: 0.8em;
+}
