@@ -1,0 +1,42 @@
+---
+title: Why do I add to_s methods to a Ruby class?
+layout: post
+---
+%h2 tl;dr
+%p
+  Adding a to_s method to a Ruby class helps with debugging.
+
+%h2 Details
+%p
+  I more and more tend to add to a Ruby class I want to test is a to_s method returning
+  some sort of information about the underlying object.
+%p
+  <script src="https://gist.github.com/3825749.js?file=simple_class_with_to_s.rb"></script>
+
+%p
+  So whenever I have to dig a little deeper and have to debug code that uses an instance of
+  that class or I simply want to write some details to the logfile, I can use the returned
+  string and thereby make sure all relevant information is printed.
+%p
+  <script src="https://gist.github.com/3825749.js?file=usage.rb"></script>
+
+%p
+  Returning only a hard-coded string or name doesn't make any sense at all though. So, let's
+  assume we have some sort of business object, for example a job doing some kind of work in
+  the background. It has a certain state which we want to know about:
+%p
+  <script src="https://gist.github.com/3825749.js?file=job.rb"></script>
+
+%p
+  If you put this into an application which keeps the waiting user up-to-date with the current
+  state of processing (as simulated below with a Ruby irb console), the user knows exactly
+  what's going on.
+%p
+  <script src="https://gist.github.com/3825749.js?file=jobs.rb"></script>
+
+%p
+  There are more methods a Ruby class should have. Make sure to take a look at Robert Klemme's
+  %a{:href => "http://blog.rubybestpractices.com/posts/rklemme/018-Complete_Class.html"} "The Complete Class" article.
+  I don't think a class should contain all of the methods described there, but it's a good starting
+  point.
+
