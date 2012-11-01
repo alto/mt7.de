@@ -1,7 +1,6 @@
 Posts:
 
 - which gems do I use?
-- fixtures_test.rb
 - rails_config settings with test helper with_setting
 - what to put in the lib directory?
 - enumeration.rb as replacement for acts_as_static
