@@ -1,7 +1,7 @@
 Run
 
   $ compass watch
-  $ jekyll --server --auto
+  $ jekyll serve --watch
 
 Deploy
 
