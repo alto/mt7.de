@@ -2,3 +2,6 @@ _site/*
 .rake_tasks~
 .DS_Store
 .sass-cache
+
+.ruby-version
+.ruby-gemset
