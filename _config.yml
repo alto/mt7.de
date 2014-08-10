@@ -1,4 +1,14 @@
-exclude: 
+ftp_host: 'mt7.de'
+ftp_dir: '/'
+# ftp_dir: '/kunden/homepages/38/d19280049/htdocs'
+ftp_passive: false
+
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'p6914812'      # default read from stdin
+# ftp_password: 'your_ftp_pass' # default read from stdin
+
+exclude:
   - tools
   - lib
   - Rakefile
