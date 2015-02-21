@@ -88,7 +88,7 @@ namespace :site do
     mime_types.store 'js', 'application/javascript'
 
     s = HTTPServer.new(
-      :Port            => options['server_port'],
+      :Port            => options['port'],
       :MimeTypes       => mime_types
     )
     s.mount(options['baseurl'], HTTPServlet::FileHandler, destination)

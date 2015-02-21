@@ -1,3 +1,6 @@
+# local server
+port: 4000
+
 ftp_host: 'mt7.de'
 ftp_dir: '/'
 # ftp_dir: '/kunden/homepages/38/d19280049/htdocs'

@@ -12,10 +12,11 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
+    directory_watcher (1.5.1)
     eleven40 (1.2)
       compass (>= 0.10.0.rc3)
     fast-stemmer (1.0.2)
-    ffi (1.9.3)
+    ffi (1.9.6)
     fssm (0.2.7)
     glynn (1.0.11)
       jekyll
@@ -41,7 +42,7 @@ GEM
     maruku (0.7.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
-    posix-spawn (0.3.9)
+    posix-spawn (0.3.10)
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
@@ -52,10 +53,10 @@ GEM
     rb-kqueue (0.2.3)
       ffi (>= 0.5.0)
     redcarpet (2.3.0)
-    safe_yaml (1.0.3)
+    safe_yaml (1.0.4)
     sass (3.1.2)
     tilt (2.0.0)
-    toml (0.1.1)
+    toml (0.1.2)
       parslet (~> 1.5.0)
     yajl-ruby (1.1.0)
 
@@ -64,8 +65,9 @@ PLATFORMS
 
 DEPENDENCIES
   compass
+  directory_watcher
   eleven40
   glynn
   haml
-  jekyll (= 1.5.1)
+  jekyll
   rake
