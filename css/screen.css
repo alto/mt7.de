@@ -108,6 +108,10 @@ ol, ul {
   margin-bottom: 1em;
 }
 
+ol, ul li {
+  margin-left: 25px;
+}
+
 /* line 51, /Users/alto/workspace/mt7.de/sass/partials/_generics.sass */
 article img {
   float: right;
