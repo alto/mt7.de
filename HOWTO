@@ -1,9 +1,0 @@
-Run
-
-  $ compass watch
-  $ jekyll serve --watch
-
-Deploy
-
-  $ rake site:generate
-  $ rake deploy:rsync
