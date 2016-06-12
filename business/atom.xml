@@ -3,7 +3,7 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>mt7.de - business feed</title>
  <link href="http://mt7.de/business/atom.xml" rel="self"/>
  <link href="http://mt7.de/"/>
@@ -13,7 +13,7 @@ layout: nil
    <name>Thorsten Böttger</name>
    <email>boettger@mt7.de</email>
  </author>
- 
+
  {% for post in site.categories.business limit:10 %}
  <entry>
    <title>{{ post.title }}</title>
@@ -23,5 +23,5 @@ layout: nil
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>
